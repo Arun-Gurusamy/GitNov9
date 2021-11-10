@@ -31,6 +31,8 @@ public class Automation {
 		
 		System.out.println(screenshotAs);
 		
+		System.out.println("Done");
+		
 		File file = new File("C:\\Users\\master\\Pictures\\Camera Roll\\home.png");
 		
 		FileUtils.copyFile(screenshotAs, file);
